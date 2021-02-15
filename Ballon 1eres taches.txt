@@ -1,0 +1,30 @@
+Mesure tension
+batterie 12 V
+Arduino 5V CAN
+Comment interfacer la batterie avec  l'Arduino ?
+Pas de choix de capteur
+une structure électronique a faire
+utiliser proetus ou tinkercad
+
+Capteur température ext
+Choisir un capteur parmi 3 modèles
+tableau comparatif
+- lm35
+- thermocouple
+- ctn
+
+Mémorisation données
+Lister toutes les données à mémoriser
+pour un cycle estimer la taille  en octets d'un trame
+etablir une structure de donnée en c
+struct
+choisir une eeprom pour une durée de vol de 6H
+choisir l'intervalle de mémorisation
+(128ko)
+
+
+
+
+
+
+
