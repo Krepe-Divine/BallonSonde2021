@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ballon" version="4">
+  <OBJECT>
+    <ID name="ballon" mc="Standard.Package" uid="ec55b37a-2928-4df8-ae10-ece27d5eac29"/>
+    <PID name="Ballon" mc="Standard.Project" uid="04d30647-dc72-4119-bd31-7f5178402764"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ballon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Afficher et interpreter les resultats " mc="Standard.UseCase" uid="b58ec1f8-c15e-416a-942e-514ca100de0e"/>
+        <COMPID name="Lycée" mc="Standard.Actor" uid="38202524-53c9-4990-ae84-b387fd510f38"/>
+        <COMPID name="transmission des données" mc="Standard.UseCase" uid="294c47eb-49fd-4c0c-b533-56951e719080"/>
+        <COMPID name="Mesurer les données meteorologique" mc="Standard.UseCase" uid="d30e2a76-9867-4f39-8d0a-d68e77abebdf"/>
+        <COMPID name="capteur temperature interieure" mc="Standard.Actor" uid="06d6f8f9-2746-44b5-8109-d127963aa6da"/>
+        <COMPID name="Capteur humidité ou temperature" mc="Standard.Actor" uid="ac8ef72a-5d18-456e-ac2b-088a6b7f8699"/>
+        <COMPID name="capteur de pression" mc="Standard.Actor" uid="d0c8eb51-be38-4c50-af94-8c88161515eb"/>
+        <COMPID name="mémoriser les informations " mc="Standard.UseCase" uid="64291125-a945-4cec-88e0-df4be9426294"/>
+        <COMPID name="reception de données" mc="Standard.UseCase" uid="1c7803ef-8c36-4d44-9522-f094656237a8"/>
+        <COMPID name="Batterie " mc="Standard.Actor" uid="109c8806-09db-488c-b770-ce9550262252"/>
+        <COMPID name="mesure de la tension des bateries" mc="Standard.UseCase" uid="8cfc678a-8fc6-477b-8f63-000ad5f7f963"/>
+        <COMPID name="Recepteur" mc="Standard.Actor" uid="508015c8-5419-4f93-a8ee-346931b58ff6"/>
+        <COMPID name="memorisation des mesures" mc="Standard.Actor" uid="9fbf4b56-4165-4998-96c5-787c2993b3ec"/>
+        <COMPID name="Emetteur" mc="Standard.Actor" uid="21f90132-fafa-46aa-9507-029f412806e5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation ballon" mc="Standard.UseCaseDiagram" uid="fd486968-8734-431a-8073-c42ae8da8ffe"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
